@@ -9,6 +9,14 @@
     "action": {
         "default_popup": "popup.html"
     },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs",
+        "contextMenus",
+        "storage",
+        "declarativeContent"
+    ],
     "content_scripts": [
         {
             "matches": [
